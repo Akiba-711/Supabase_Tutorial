@@ -20,9 +20,12 @@
   "homepage": "https://github.com/Akiba-711/Supabase_Tutorial#readme",
   "devDependencies": {
     "@types/node": "^25.9.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.22.3",
     "typescript": "^6.0.3"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.106.2"
+    "@supabase/supabase-js": "^2.106.2",
+    "dotenv": "^17.4.2"
   }
 }
