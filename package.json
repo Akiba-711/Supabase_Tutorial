@@ -1,0 +1,28 @@
+{
+  "name": "supabase_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akiba-711/Supabase_Tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Akiba-711/Supabase_Tutorial/issues"
+  },
+  "homepage": "https://github.com/Akiba-711/Supabase_Tutorial#readme",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.106.2"
+  }
+}
