@@ -4,15 +4,15 @@
 
 ### 1. リポジトリをクローン
 
+VS code内のターミナルで以下を実行 or 手動でリポジトリをクローン
 ```bash
 git clone https://github.com/Akiba-711/Supabase_Tutorial.git
 cd Supabase_Tutorial
 ```
 
-もしくは自分でリポジトリをクローン
-
 ### 2. 依存パッケージをインストール
 
+VS code内のターミナルで以下を実行
 ```bash
 npm install
 ```
@@ -24,11 +24,12 @@ npm install
 1. [Supabase](https://supabase.com/) にアクセスしてアカウント作成
 2. 秋葉に連絡し、Supabaseプロジェクト(以下、SBプロジェクト)に招待してもらう
 3. 招待を受けた後、SBプロジェクトホーム画面中央上の Connect から、2:Add filesの.env.localを取得
-4. 3で取得した.env.localの内容を、Supabase_Tutorial/.env(新規作成) に入力
+4. 3で取得した.env.localの内容を、VS code で Supabase_Tutorial/.env(新規作成) に入力
 
 
 ### 4. 実行
 
+VS code内のターミナルで以下を実行
 ```bash
 npx tsx src/index.ts
 ```
