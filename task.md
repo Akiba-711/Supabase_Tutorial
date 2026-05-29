@@ -156,11 +156,16 @@ async function createMemo(title: string, content: string) {
 実行内容
 ・各自の名前(atuto,yuuki)のtableに対して操作を行う
 ・データの追加、更新、削除を行った後は必ずデータの表示(READ)を行う
-1.`title = 1つ目` `content = Supabaseのテスト` のデータを追加
-2.`title = 2つ目` `content = CRUD操作のテスト` のデータを追加
-3.1つ目のデータを `content = TypeScriptのテスト`に更新(`title`はそのまま)
-4.2つ目のデータを削除
-5.1つ目のデータを削除
+1.`title = 1つ目` `content = Supabaseのテスト` のデータを追加　
+
+2.`title = 2つ目` `content = CRUD操作のテスト` のデータを追加　
+
+3.1つ目のデータを `content = TypeScriptのテスト`に更新(`title`はそのまま)　
+
+4.2つ目のデータを削除　
+
+5.1つ目のデータを削除　
+
 
 ### 注意
 データの削除に失敗したコードを実行した場合、削除出来なかったデータがDBに残ってしまう。
